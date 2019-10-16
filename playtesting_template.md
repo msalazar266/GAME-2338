@@ -1,11 +1,11 @@
-# Playtest for Age of Empires II HD Edition
+# Playtest for [Game Title]
 
-* Game Publisher - Microsoft (Win, Mac), Konami (PS2)
-* Game Rating - 9/10
-* https://www.ageofempires.com/games/aoeii/
+* Game Publisher
+* Game Rating
+* [Game Title Website](http://example.com)
 
 **Question:** During your playtesting where the rules of the game understandable? If not, what was not clear.
-> _Answer:_ The rules were understandable
+> _Answer:_ Your answer here
 
 **Question:** During gameplay did you notice anything that shouldn't be in the game or could be removed and it wouldn't effect game play?
 > _Answer:_ Your answer here
