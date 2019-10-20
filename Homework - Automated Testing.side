@@ -1,0 +1,351 @@
+{
+  "id": "9dd09485-f682-448e-8450-8eb38426e854",
+  "version": "2.0",
+  "name": "Homework - Automated Testing",
+  "url": "https://www.espn.com",
+  "tests": [{
+    "id": "d73497cf-573b-47f3-b9ec-dd90568514af",
+    "name": "Hmwk Test 1",
+    "commands": [{
+      "id": "eafc7c67-9197-47b3-bb28-07ea7888122c",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "d1af1b81-cffa-4a6c-8611-7ad6f8ba26cf",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1616x876",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "cbc418e3-e706-40fb-a89b-312cea84143d",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,1)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "14d9545b-3e76-4406-95cf-1cbcc8914072",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,66)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "51b1a7c1-3644-4a84-8c4d-bf0b035bc475",
+      "comment": "",
+      "command": "click",
+      "target": "css=.nfl ul:nth-child(1) > .team:nth-child(4) .link-text",
+      "targets": [
+        ["css=.nfl ul:nth-child(1) > .team:nth-child(4) .link-text", "css:finder"],
+        ["xpath=//nav[@id='global-nav']/ul/li/div/ul[2]/li/div/ul/li[4]/a/span/span", "xpath:idRelative"],
+        ["xpath=//ul[2]/li/div/ul/li[4]/a/span/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "c305aaaa-2459-414c-a23b-9862a7abc8f3",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,0)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "59ecf1ee-882d-4f34-be79-8a87ad103dba",
+      "comment": "",
+      "command": "click",
+      "target": "css=.hover .link-text",
+      "targets": [
+        ["css=.hover .link-text", "css:finder"],
+        ["xpath=//nav[@id='global-nav-secondary']/div[2]/ul/li[3]/a/span", "xpath:idRelative"],
+        ["xpath=//nav[2]/div[2]/ul/li[3]/a/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "591db577-374a-4319-ad46-702b5a38c555",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,0)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "30537e31-4e3b-431c-a04e-c8a6feec4cb0",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,2)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "90fccbdf-14a6-425f-82bb-508c35d96e25",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,222)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "1925965d-be50-4257-917e-53de52e53fe5",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,718)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "3da91af9-caff-449d-93a9-a3931869c7fb",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,1293)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "4b0e1402-7c3e-4408-b500-72ba1c77cc8b",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,1869)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "624e6e09-7aa1-4151-b627-79227bc6659d",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,2249)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "eacfd4e3-41b3-4c34-811f-6b4939a1f670",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,3121)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "8f3cb564-bd87-4121-b374-fc8039544a03",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,3515)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "636d6b55-1c10-459d-ac57-1421eadebaf5",
+      "comment": "",
+      "command": "click",
+      "target": "css=.Nav__Secondary__Menu__Item:nth-child(4) .Nav__Text",
+      "targets": [
+        ["css=.Nav__Secondary__Menu__Item:nth-child(4) .Nav__Text", "css:finder"],
+        ["xpath=//div[@id='fittPageContainer']/div[2]/div[2]/nav/ul/li[4]/a/span", "xpath:idRelative"],
+        ["xpath=//div[2]/nav/ul/li[4]/a/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Schedule')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "312d7756-5167-41ee-9fdd-e0f4aa87bccd",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.Nav__Secondary__Menu__Item:nth-child(4) .Nav__Text",
+      "targets": [
+        ["css=.Nav__Secondary__Menu__Item:nth-child(4) .Nav__Text", "css:finder"],
+        ["xpath=//div[@id='fittPageContainer']/div[2]/div[2]/nav/ul/li[4]/a/span", "xpath:idRelative"],
+        ["xpath=//div[2]/nav/ul/li[4]/a/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Schedule')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "e95c2a04-09a1-4180-a580-3ea53b167b3e",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,0)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "0644adb6-39a9-42ee-8f7c-53bba3d8f4c3",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,26)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "1ecfdfe3-bf01-4752-a7c0-191b6a2c94da",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,268)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "f59dc158-e669-4177-ad1a-65498f561494",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,384)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "594b7ec5-abde-40eb-9378-1ad031d37992",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,445)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "ef1c54b3-aa92-4fa0-bf02-dd5e7b344639",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,692)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "4f064e88-d441-42c7-96b6-d763f1b3679e",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,321)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "6dcfd025-f404-45d1-9616-ca5867557acd",
+      "comment": "",
+      "command": "click",
+      "target": "css=.Nav__Secondary__Menu__Item:nth-child(7) .Nav__Text",
+      "targets": [
+        ["css=.Nav__Secondary__Menu__Item:nth-child(7) .Nav__Text", "css:finder"],
+        ["xpath=//div[@id='fittPageContainer']/div[2]/div[2]/nav/ul/li[7]/a/span", "xpath:idRelative"],
+        ["xpath=//li[7]/a/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Injuries')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "93d708c0-3d2d-4ed7-a173-eb9b86ba56a2",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.Nav__Secondary__Menu__Item:nth-child(7) .Nav__Text",
+      "targets": [
+        ["css=.Nav__Secondary__Menu__Item:nth-child(7) .Nav__Text", "css:finder"],
+        ["xpath=//div[@id='fittPageContainer']/div[2]/div[2]/nav/ul/li[7]/a/span", "xpath:idRelative"],
+        ["xpath=//li[7]/a/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Injuries')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "6e1847aa-a419-4dee-a77b-41dd09873680",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.Nav__Primary__Menu__Item--expanded > .AnchorLink",
+      "targets": [
+        ["css=.Nav__Primary__Menu__Item--expanded > .AnchorLink", "css:finder"],
+        ["xpath=//div[@id='espn-analytics']/div/div/div[3]/div/nav/ul/li[6]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/mma/')]", "xpath:href"],
+        ["xpath=//li[6]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'MMA')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "2d46f784-eda4-4429-823c-a8ed2d87ad55",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,48)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "a1b2cfb8-732c-494b-98de-f317b93c6b37",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,138)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "72919c37-d695-47a3-8073-5b0c18a4d108",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,710)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "9bb4fbf0-e74f-4543-a738-0431a194bf4e",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,895)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "e2b72079-6b44-4035-9432-99e5d02932df",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,0)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "8c2660ef-77c9-42ed-bcb0-4b73a6f76a55",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.Nav__Secondary__Menu__Item:nth-child(8) .Nav__Text",
+      "targets": [
+        ["css=.Nav__Secondary__Menu__Item:nth-child(8) .Nav__Text", "css:finder"],
+        ["xpath=//div[@id='fittPageContainer']/div[2]/div[2]/nav/ul/li[8]/a/span", "xpath:idRelative"],
+        ["xpath=//li[8]/a/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Transactions')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "95f1e8ef-6e50-4f5a-a9ce-59bf45c543bd",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "linkText=NBA",
+      "targets": [
+        ["linkText=NBA", "linkText"],
+        ["css=.Nav__Primary__Menu__Item--expanded > .AnchorLink", "css:finder"],
+        ["xpath=//div[@id='espn-analytics']/div/div/div[3]/div/nav/ul/li[2]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/nba/')]", "xpath:href"],
+        ["xpath=//li[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'NBA')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "6703f023-45b5-4e47-b687-c7698245e600",
+      "comment": "",
+      "command": "click",
+      "target": "css=.AnchorLink > div",
+      "targets": [
+        ["css=.AnchorLink > div", "css:finder"],
+        ["xpath=//div[@id='espn-analytics']/div/div/div[2]/div/section/div/a/div", "xpath:idRelative"],
+        ["xpath=//div/section/div/a/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "f3cbb304-5782-4ccd-b1f2-7ab46b76d6ae",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,79)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "27912fbf-0fcb-4f90-b7e0-fb64b37ab883",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,794)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "7a4fe4ef-7291-47bb-a869-5f263846641c",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,2017)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "0a1e0da0-7816-427a-8c86-b6db41489a51",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,2209)",
+      "targets": [],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "dc7c8ced-5eb8-4d8d-85ee-b71e6f491e5d",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["d73497cf-573b-47f3-b9ec-dd90568514af"]
+  }],
+  "urls": ["https://www.espn.com/"],
+  "plugins": []
+}
